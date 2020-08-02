@@ -1,0 +1,110 @@
+body{
+    
+    background:linear-gradient(to bottom right, #1d1e22,lightblue);
+    height: 100%;
+    width: 100%;
+  }
+  #parallax {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png), url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 50%;
+  }
+ hr{
+     background-color: white;
+ }
+ 
+.bio {
+    position: absolute; 
+    margin-top: 25rem;
+  }
+  .avatar{
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 125px;
+    display: block;
+    margin: auto auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .title{
+      text-shadow: 2px 2px 4px #000000;
+  }
+
+  .card1{
+    background:linear-gradient(to top right,rgb(1, 76, 126,1),rgba(0,0,0,0.5)), url("img/bg2.jpg");
+    width: 60%;
+    min-height: 200px;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 50px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .card2{
+    background:linear-gradient(to top right,rgb(1, 76, 126,1),rgba(0,0,0,0.5)), url("img/parallax1.jpg");
+    width: 60%;
+    min-height: 200px;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 50px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .card3{
+    background:linear-gradient(to right,rgb(1, 76, 126,1),rgba(0,0,0,0)), url("img/parallax1.jpg");
+    width: 60%;
+    min-height: 200px;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 50px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .card4{
+    background:linear-gradient(to right,rgb(1, 76, 126,1),rgba(0,0,0,0)), url("img/bg1.jpg");
+    width: 60%;
+    min-height: 200px;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 50px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .card5{
+    background:linear-gradient(to right,rgb(1, 76, 126,1),rgba(0,0,0,0)), url("img/parallax1.jpg");
+    width: 60%;
+    min-height: 200px;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 50px;
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
